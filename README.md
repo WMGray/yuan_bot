@@ -6,15 +6,15 @@
 
 ## 搭建一个基本的QQ机器人
 
-**&ensp;&ensp;[官方文档](https://v2.nonebot.dev/)**
-### 依赖库
+**&ensp;&ensp;[NB官方文档](https://v2.nonebot.dev/)**
+### 安装必要库
 
 > pip install nb_cli  \
 > nb adapter install OneBot
 
 ![img.png](./images/nb_version.png)
 
-### 创建Bot.py
+### 创建项目
 > nb create  
 
 ![create.png](./images/create.png)
@@ -24,7 +24,7 @@
 
 &ensp;&ensp;创建成功后，文件目录如下:
 ![create_3.png](./images/create_3.png)
-其中`env`文件可合并成一个文件，在其中填写相关配置信息
+&ensp;&ensp;其中`env`文件可合并成一个文件，在其中填写相关配置信息
 
 ![file_menu.png](./images/file_menu.png)
 
@@ -38,8 +38,8 @@
     运行`.bat`文件，选择`反向 Websocket 通信`
 ![go-cqhttp.png](./images/go-cqhttp.png)
 
-&ensp;&ensp;在'config.yml'中配置相关信息（密码、**反向WS Universal 地址**）  
-&ensp;&ensp;**反向WS Universal地址**设置为 `ws://HOST:POST/onebot/v11/ws/`(eg:ws://127.0.0.1:22334/onebot/v11/ws/)
+&ensp;&ensp;在`config.yml`中配置相关信息（密码、反向WS Universal 地址等）  
+&ensp;&ensp;**反向WS Universal地址**修改为 `ws://HOST:POST/onebot/v11/ws/`(eg:ws://127.0.0.1:22334/onebot/v11/ws/)
 
 
 ### 运行Bot
@@ -50,5 +50,6 @@
 
 ![go_run](./images/gocq_run.png)
 
+![run](./images/run.png)
 
 
